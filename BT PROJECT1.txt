@@ -1,0 +1,13 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import by
+from webdriver_manager.chrome import chrome drivermanager()
+driver.implicitly wait(10)
+webdriver driver = new chromedriver().install()
+driver.get("https://https://www.bt.com")
+driver.find_element_By.xpath("//a[text()="Accept all cookies"]").click()
+driver.switch_To_alert().accept()
+driver.find_elements_By.xpath("//ul[@class="left-nav-ul"]/child::li[4]/child::a/child::span").click()
+driver.find_elements_By.xpath("//a[@data-di-id="di-id-9835bf26-eba9dc11"]").click()
+driver.find_elements_By.xpath("//a[@data-di-id="di-id-f6103190-3a42ff4a"]").click()
+driver.get_title()
+driver.close()
